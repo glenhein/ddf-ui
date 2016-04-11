@@ -178,6 +178,9 @@ require.config({
         console.error('RequireJS failed to load a module', err);
     }
 };*/
+
+window.jQuery = require('jquery');
+
 require([
     'underscore',
     'jquery',
@@ -190,6 +193,7 @@ require([
     'js/HandlebarsHelpers',
     'js/ApplicationHelpers'
 ], function (_, $, Backbone, Marionette, app, properties, hbs, store) {
+    window.jQuery = $
     // Make lodash compatible with Backbone
     var lodash = _.noConflict();
     _.mixin({

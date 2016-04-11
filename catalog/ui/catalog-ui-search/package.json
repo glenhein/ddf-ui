@@ -45,17 +45,25 @@
     "requirejs": "^2.1.22",
     "sinon": "^1.17.3",
     "squirejs": "^0.2.1",
+    "text-loader": "0.0.1",
     "underscore": "^1.8.3",
     "wd": "0.3.12",
+    "webpack": "^1.12.15",
+    "webpack-dev-server": "^1.14.1",
     "which": "1.0.5",
     "yargs": "1.3.3"
   },
   "dependencies": {
+    "bootstrap": "^3.2.0",
+    "cesium": "^1.20.0",
     "express": "3.3.8",
     "faye": "1.1.0",
+    "jquery": "^2.2.3",
+    "jquery-ui": "^1.10.5",
     "lodash": "2.4.1",
     "node-fs": "0.1.7",
     "node-options": "0.0.3",
+    "openlayers": "^3.15.1",
     "path": "0.4.9",
     "request": "2.49.0"
   }

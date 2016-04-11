@@ -200,7 +200,7 @@ module.exports = function (grunt) {
     grunt.registerTask('test:sauce', ['port:allocator', 'express:test', 'mochaWebdriver:sauce']);
 
     grunt.registerTask('build', ['bower-offline-install', 'sed', 'less',
-        'cssmin', 'jshint']);
+        'cssmin']);
 
     grunt.registerTask('default', ['build','express:server','watch']);
 
